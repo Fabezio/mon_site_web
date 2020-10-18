@@ -1,14 +1,11 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
 
-
 #top-banner {
   color: rgb(255, 255, 255);
   font-size: 30px;
-
   background-color: rgba(30, 30, 30, 0.7);
   overflow: auto;
   text-align: center;
@@ -17,8 +14,6 @@ body {
 #top-banner-img {
   float: right;
 }
-
-
 
 #menu {
   width: 260px;
@@ -39,7 +34,6 @@ body {
   line-height: 45px;
   z-index: 5;
 }
-
 
 #menu .menu-button>a {
   background-color: rgba(97, 97, 97, 1);
@@ -65,12 +59,9 @@ body {
   margin: 0px 10px -12px -5px;
 }
 
-
-#top-banner,
-#menu {
+#top-banner, #menu {
   border-color: #616161;
 }
-
 
 #toggle-menu-button:hover {
   color: #757575;
